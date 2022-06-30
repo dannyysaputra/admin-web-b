@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         serverSide : true,
         ajax: {
             type: 'GET',
-            url: 'databaseconnect.php',
+            url: '/api/karyawan-api.php',
             dataType: 'JSON',
             dataSrc: ""
         },
